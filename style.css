@@ -226,15 +226,6 @@ nav {
   width: 120px !important;
   height: 120px;
 }
-
-.arrows {
-  position: absolute;
-  width: 100%;
-  height: 5%;
-  bottom: 35px;
-  display: none;
-}
-
 @media (min-width: 900px) {
   #img-1 {
     width: 40%;
@@ -251,4 +242,12 @@ nav {
   .arrows {
     display: block;
   }
+}
+
+.arrows {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  bottom: 35px;
+  display: none;
 }
