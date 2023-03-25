@@ -19,16 +19,16 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 let landing = document.getElementById("landing");
-
 let current = document.querySelector(
   "#targrt > span.swiper-pagination-current"
 );
-// #swiper-wrapper-c107a1ede12710dc0d
 let leaf1 = document.getElementById("img-4");
 let leaf2 = document.getElementById("img-5");
 let leaf3 = document.getElementById("img-6");
 let leaf4 = document.getElementById("img-7");
 let leaf5 = document.getElementById("img-8");
+
+// scrolling with keyboard 
 document.addEventListener("keyup", (e) => {
   if (e.key == "ArrowRight" && current.innerHTML == "2") {
     leaf1.style.right = "0%";
@@ -112,6 +112,7 @@ document.addEventListener("keyup", (e) => {
     console.log("first left");
   }
 });
+// functions to work on mobile size
 function next() {
   if (current.innerHTML == "1") {
     leaf1.style.right = "0%";
@@ -153,7 +154,7 @@ function next() {
     leaf5.style.rotate = "360deg";
     landing.classList.remove("animation-2");
     landing.classList.remove("animation-1");
-    console.log('third right');
+    console.log("third right");
   }
 }
 function prev() {
