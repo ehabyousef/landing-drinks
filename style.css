@@ -231,7 +231,6 @@ nav {
     width: 15%;
   }
 }
-
 @media (max-width: 500px) {
   .arrows {
     display: block;
