@@ -146,9 +146,6 @@ nav {
 }
 
 /* moving images  */
-.images {
-  transition: 2s;
-}
 .content .text {
   position: relative;
   top: 40%;
