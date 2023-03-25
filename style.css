@@ -236,13 +236,8 @@ nav {
 }
 
 @media (min-width: 900px) {
-  .container h1 {
-    font-size: 220px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    z-index: 0;
+  #img-1 {
+    width: 40%;
   }
 }
 
