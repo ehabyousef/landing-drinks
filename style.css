@@ -219,13 +219,7 @@ nav {
   filter: blur(4px);
   transition: 1s;
 }
-.swiper-pagination {
-  font-size: 60px;
-  position: absolute !important;
-  top: 40% !important;
-  width: 120px !important;
-  height: 120px;
-}
+
 @media (min-width: 900px) {
   #img-1 {
     width: 40%;
@@ -243,7 +237,13 @@ nav {
     display: block;
   }
 }
-
+.swiper-pagination {
+  font-size: 60px;
+  position: absolute !important;
+  top: 40% !important;
+  width: 120px !important;
+  height: 120px;
+}
 .arrows {
   position: absolute;
   width: 100%;
