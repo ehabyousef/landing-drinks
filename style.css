@@ -239,6 +239,12 @@ nav {
   #img-1 {
     width: 40%;
   }
+  #img-2{
+    width: 12%;
+  }
+  #img-3{
+    width: 12%;
+  }
 }
 
 @media (max-width: 500px) {
