@@ -7,6 +7,10 @@ var swiper = new Swiper(".mySwiper", {
     enabled: true,
   },
   loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   pagination: {
     el: ".swiper-pagination",
     type: "fraction",
@@ -108,3 +112,91 @@ document.addEventListener("keyup", (e) => {
     console.log("first left");
   }
 });
+function next() {
+  if (current.innerHTML == "1") {
+    leaf1.style.right = "0%";
+    leaf1.style.rotate = "45deg";
+    leaf2.style.left = "-5%";
+    leaf2.style.rotate = "180deg";
+    leaf3.style.left = "-14%";
+    leaf3.style.rotate = "-180deg";
+    leaf4.style.top = "35%";
+    leaf4.style.left = "45%";
+    leaf5.style.right = "-5%";
+    leaf5.style.rotate = "90deg";
+    landing.classList.add("animation-1");
+    console.log("first right");
+  }
+  if (current.innerHTML == "2") {
+    leaf1.style.right = "-3%";
+    leaf1.style.rotate = "90deg";
+    leaf2.style.rotate = "270deg";
+    leaf3.style.rotate = "-270deg";
+    leaf4.style.top = "30%";
+    leaf4.style.left = "50%";
+    leaf5.style.right = "-7%";
+    leaf5.style.rotate = "180deg";
+    landing.classList.add("animation-2");
+    console.log("second right");
+  }
+
+  if (current.innerHTML == "3") {
+    leaf1.style.right = "0%";
+    leaf1.style.rotate = "90deg";
+    leaf2.style.left = "-5%";
+    leaf2.style.rotate = "360deg";
+    leaf3.style.left = "-14%";
+    leaf3.style.rotate = "-360deg";
+    leaf4.style.top = "30%";
+    leaf4.style.left = "35%";
+    leaf5.style.right = "-5%";
+    leaf5.style.rotate = "360deg";
+    landing.classList.remove("animation-2");
+    landing.classList.remove("animation-1");
+    console.log('third right');
+  }
+}
+function prev() {
+  if (current.innerHTML == "1") {
+    leaf1.style.right = "-3%";
+    leaf1.style.rotate = "90deg";
+    leaf2.style.rotate = "270deg";
+    leaf3.style.rotate = "-270deg";
+    leaf4.style.top = "30%";
+    leaf4.style.left = "50%";
+    leaf5.style.right = "-7%";
+    leaf5.style.rotate = "180deg";
+    console.log("third left");
+    landing.classList.add("animation-2");
+  }
+  if (current.innerHTML == "2") {
+    leaf1.style.right = "0%";
+    leaf1.style.rotate = "0deg";
+    leaf2.style.left = "5%";
+    leaf2.style.rotate = "0deg";
+    leaf3.style.left = "-10%";
+    leaf3.style.rotate = "0deg";
+    leaf4.style.top = "30%";
+    leaf4.style.left = "35%";
+    leaf5.style.right = "5%";
+    leaf5.style.rotate = "0deg";
+    landing.classList.remove("animation-1");
+    console.log("first left");
+  }
+
+  if (current.innerHTML == "3") {
+    leaf1.style.right = "0%";
+    leaf1.style.rotate = "45deg";
+    leaf2.style.left = "-5%";
+    leaf2.style.rotate = "180deg";
+    leaf3.style.left = "-14%";
+    leaf3.style.rotate = "-180deg";
+    leaf4.style.top = "35%";
+    leaf4.style.left = "45%";
+    leaf5.style.right = "-5%";
+    leaf5.style.rotate = "90deg";
+    landing.classList.remove("animation-2");
+    landing.classList.add("animation-1");
+    console.log("second left");
+  }
+}
