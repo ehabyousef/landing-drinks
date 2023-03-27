@@ -231,11 +231,7 @@ nav {
     width: 15%;
   }
 }
-@media (max-width: 500px) {
-  .arrows {
-    display: block;
-  }
-}
+
 .swiper-pagination {
   font-size: 60px;
   position: absolute !important;
@@ -249,4 +245,9 @@ nav {
   height: 5%;
   bottom: 35px;
   display: none;
+}
+@media (max-width: 500px) {
+  .arrows {
+    display: block;
+  }
 }
