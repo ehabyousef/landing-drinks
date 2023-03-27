@@ -245,10 +245,9 @@ nav {
   height: 5%;
   bottom: 35px;
   display: none;
-  color: black;
 }
 .arrows div{
-  color: ;
+  color:black ;
 }
 @media (max-width: 500px) {
   .arrows {
