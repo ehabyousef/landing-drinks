@@ -261,9 +261,10 @@ nav {
   background-color: black;
   overflow: hidden;
 }
+.second-page .images-2 {
+  min-width: 100%;
+}
 .second-page .images-2 img {
   width: 500px;
   transform: rotate(10deg);
-  top: 70px;
-  left: -5%;
 }
