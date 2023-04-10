@@ -20,6 +20,12 @@
     ],
     "no-inline-styles": "off",
     "detect-css-reflows/composite": "off",
-    "detect-css-reflows/paint": "off"
+    "detect-css-reflows/paint": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off"
+      }
+    ]
   }
 }

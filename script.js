@@ -28,7 +28,7 @@ let leaf3 = document.getElementById("img-6");
 let leaf4 = document.getElementById("img-7");
 let leaf5 = document.getElementById("img-8");
 
-// scrolling with keyboard 
+// scrolling with keyboard
 document.addEventListener("keyup", (e) => {
   if (e.key == "ArrowRight" && current.innerHTML == "2") {
     leaf1.style.right = "0%";
@@ -201,3 +201,13 @@ function prev() {
     console.log("second left");
   }
 }
+
+// scroll with bottle
+let image1 = document.getElementById("img-1");
+console.log(image1);
+window.addEventListener("scroll", () => {
+  let value = window.scrollY;
+  // image1.style.transform = `translate(-50%,-50 + ${value} * .1 + "%")`;
+  image1.style.transform = `translate(45 + value * -0.1 + "%)`;
+  console.log("scroll");
+});
