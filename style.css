@@ -261,12 +261,14 @@ nav {
   max-height: 80vh;
   background-color: black;
   overflow: hidden;
+}
+.second-page .images-2 {
   position: relative;
 }
 .second-page .images-2 img {
   width: 500px;
   transform: rotate(10deg);
-  top: 70px;
   position: absolute;
+  top: 70px;
   left: -5%;
 }
