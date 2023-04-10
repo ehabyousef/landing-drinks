@@ -11,7 +11,7 @@ body {
   font-family: "Shantell Sans", cursive;
 }
 #landing {
-  /* position: relative; */
+
   height: 100vh;
   background: rgb(247, 171, 8);
   overflow: hidden;
@@ -263,12 +263,12 @@ nav {
   overflow: hidden;
 }
 .second-page .images-2 {
-  position: relative;
+  /* position: relative; */
 }
 .second-page .images-2 img {
   width: 500px;
   transform: rotate(10deg);
-  position: absolute;
-  top: 70px;
-  left: -5%;
+  /* position: absolute; */
+  /* top: 70px;
+  left: -5%; */
 }
