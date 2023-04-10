@@ -207,7 +207,6 @@ let image1 = document.getElementById("img-1");
 console.log(image1);
 window.addEventListener("scroll", () => {
   let value = window.scrollY;
-  // image1.style.transform = `translate(-50%,-50 + ${value} * .1 + "%")`;
-  image1.style.transform = `translate(45 + value * -0.1 + "%)`;
+  image1.style.top = 0 + value * 1 + "px";
   console.log("scroll");
 });

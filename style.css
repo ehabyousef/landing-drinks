@@ -21,7 +21,6 @@ body {
 #landing {
   height: 100vh;
   background: var(--orange-color);
-  /* overflow: hidden; */
   transition: 1s;
 }
 .animation-1 {
@@ -267,7 +266,7 @@ nav {
 .second-page {
   height: 60vh;
   background-color: var(--orange-color);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .second-page .images-2 {
   width: 100%;
