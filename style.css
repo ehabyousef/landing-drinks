@@ -257,14 +257,17 @@ nav {
 /* edit second page  */
 
 .second-page {
-  max-height: 80vh;
+  height: 50vh;
   background-color: black;
   overflow: hidden;
 }
 .second-page .images-2 {
   min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .second-page .images-2 img {
-  width: 500px;
+  width: 400px;
   transform: rotate(10deg);
 }
