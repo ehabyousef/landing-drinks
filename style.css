@@ -263,10 +263,3 @@ nav {
   overflow: hidden;
   position: relative;
 }
-.second-page .images {
-  position: absolute;
-  width: 100%;
-}
-.second-page .images img{
-  width: 50px;
-}
