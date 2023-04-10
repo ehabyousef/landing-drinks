@@ -246,11 +246,18 @@ nav {
   bottom: 35px;
   display: none;
 }
-.arrows div{
-  color:black ;
+.arrows div {
+  color: black;
 }
 @media (max-width: 500px) {
   .arrows {
     display: block;
   }
+}
+
+/* edit second page  */
+
+.second-page {
+  max-height: 80vh;
+  background-color: black;
 }
