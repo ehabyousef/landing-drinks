@@ -207,6 +207,6 @@ let image1 = document.getElementById("img-1");
 console.log(image1);
 window.addEventListener("scroll", () => {
   let value = window.scrollY;
-  image1.style.top = 0 + value * 1 + "px";
+  image1.style.top = 0 + value * 2 + "px";
   console.log("scroll");
 });

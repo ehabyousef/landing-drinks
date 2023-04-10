@@ -281,6 +281,4 @@ nav {
 .second-page .images-2 #leave2-1 {
   transform: rotate(5deg) translateX(-50px);
 }
-.second-page .images-2 #leave2-2 {
-  transform: rotate(5deg) translate(50px, 60px);
-}
+
