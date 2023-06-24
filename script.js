@@ -1,6 +1,6 @@
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
-  spaceBetween: 50,
+  spaceBetween: 30,
   speed: 1800,
   mousewheelControl: true,
   keyboard: {
