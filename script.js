@@ -139,8 +139,8 @@ function next() {
     leaf3.style.rotate = "-180deg";
     leaf4.style.top = "35%";
     leaf4.style.left = "45%";
-    leaf5.style.right = "-5%";
-    leaf5.style.rotate = "90deg";
+    // leaf5.style.right = "-5%";
+    // leaf5.style.rotate = "90deg";
     landing.classList.add("animation-1");
     console.log("first right");
   }

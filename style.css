@@ -271,6 +271,6 @@ nav {
 .second-page .images img {
   width: 50px;
 }
-.content{
-  
+.content {
+  overflow: hidden;
 }
