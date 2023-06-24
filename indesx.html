@@ -13,12 +13,16 @@
       href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,400;1,600;1,900&family=Gulzar&family=Mynerve&family=Rubik+Iso&family=Shantell+Sans:ital,wght@0,300;0,600;1,300;1,500&display=swap"
       rel="stylesheet"
     />
-
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <title>tropicana</title>
   </head>
 
   <body>
-    <div id="landing" class="">
+    <div id="landing" class="swiper-container mySwiper">
       <nav>
         <div class="logo">
           <img src="images/R.png" alt="" />
@@ -39,8 +43,8 @@
         <img id="img-7" src="images/leaf-clean-1.png" alt="" />
         <img id="img-8" src="images/leaf-clean-1.png" alt="" />
       </div>
-      <div class="container">
-        <div class="content">
+      <div class="container swiper-wrapper">
+        <div class="content swiper-slide">
           <div class="text">
             <h1>Orange</h1>
             <img id="img-1" src="images/trop52-1.png" alt="" />
@@ -48,7 +52,7 @@
             <img id="img-3" src="images/lemon.png" alt="" />
           </div>
         </div>
-        <div class="content">
+        <div class="content swiper-slide">
           <div class="text">
             <h1 style="color: #fbd311">PineApple</h1>
             <img id="img-1" src="images/Untitled-1.png" alt="" />
@@ -57,7 +61,7 @@
             <img id="img-3" src="images/mangoslice.png" alt="" />
           </div>
         </div>
-        <div class="content">
+        <div class="content swiper-slide">
           <div class="text">
             <h1 style="color: white">PinaColada</h1>
             <img id="img-1" src="images/coalda1.png" alt="" />
@@ -82,6 +86,9 @@
         <img src="images/big=leave.png" alt="" />
       </div>
     </div> -->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
