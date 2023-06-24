@@ -12,10 +12,10 @@ body {
 }
 
 #landing {
-  /* position: relative; */
+  position: relative;
   height: 100vh;
   background: rgb(247, 171, 8);
-  overflow: hidden;
+  overflow: hidden !important;
   transition: 1s;
 }
 .animation-1 {
